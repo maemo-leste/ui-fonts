@@ -1,0 +1,15 @@
+Source: ui-fonts
+Priority: optional
+Section: x11
+Maintainer: Ivan J. <parazyd@dyne.org>
+Build-Depends:
+ debhelper-compat (=12),
+Standards-Version: 4.3.0
+Vcs-Git: https://github.com/maemo-leste/ui-fonts
+Vcs-Broswser: https://github.com/maemo-leste/ui-fonts
+
+Package: ui-fonts
+Architecture: all
+Depends: ${misc:Depends},
+ fontconfig,
+Description: Fonts for the User Interface

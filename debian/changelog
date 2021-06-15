@@ -1,0 +1,159 @@
+ui-fonts (3.2) unstable; urgency=medium
+
+  * Packaging for Maemo Leste
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 15 Jun 2021 14:00:34 +0200
+
+ui-fonts (3.1-2+0m5) unstable; urgency=low
+
+  * This entry has been added by BIFH queue processor
+    Suffix +0m5 added to package revision
+
+ -- Gary Birkett <ext-gary.2.birkett@nokia.com>  Wed, 24 Feb 2010 12:26:01 +0200
+
+ui-fonts (3.1-2) unstable; urgency=low
+
+  * Fixes: NB#158046 - Extra font support
+  * Relocated nokia fonts to nokia directory in SVN (same place on device)
+  * Added: DuanPenh (daunpenh.ttf) which has support for Khmer
+  * Added: Mangal (mangal.ttf) which has support for Devanagari
+  * Added: Tahoma (tahoma.ttf) which has support for Arabic, Persian and 
+    Urdu as well as Thai
+  * Updated ui-fonts-test to show a line of text for each new font
+
+ -- Gordon Williams <gordon.williams@collabora.co.uk>  Tue, 23 Feb 2010 12:15:26 +0000
+
+ui-fonts (3.1-1) unstable; urgency=low
+
+  * Fixes: NB#141580 2 Arabic fonts should be removed from the device
+
+ -- Richard Sun <richard.sun@nokia.com>  Fri, 02 Oct 2009 16:41:26 +0300
+
+ui-fonts (3.1-0) unstable; urgency=low
+
+  * Fixes: NB#127286 Missing Font Nokia Semi Sans bold
+
+ -- Richard Sun <richard.sun@nokia.com>  Fri, 10 Jul 2009 11:26:48 +0300
+
+ui-fonts (3.0-0) unstable; urgency=low
+
+  * Bump version for Fremantle 
+  * Updated: ui-fonts-test compatible with Fremantle UI style
+  * Added: Nokia Arbic fonts
+  * Added: Nokia Map fonts
+
+ -- Richard Sun <richard.sun@nokia.com>  Fri, 12 Jun 2009 18:46:55 +0300
+
+ui-fonts (2.1-1) unstable; urgency=low
+
+  * Added DeviceSymbols-RX44.ttf
+  * Added "LOCK" key to the test utility
+
+ -- Jakub Pavelek <jakub.pavelek@nokia.com>  Fri, 11 May 2007 09:29:32 +0300
+
+ui-fonts (2.0-5) unstable; urgency=low
+
+  * Added hildon-libs-dev to build dependencies (another try?) 
+
+ -- Jakub Pavelek <jakub.pavelek@nokia.com>  Wed, 24 Jan 2007 13:22:36 +0200
+
+ui-fonts (2.0-3) unstable; urgency=low
+
+  * Fixed the dependency on fontconfig missing
+
+ -- Jakub Pavelek <jakub.pavelek@nokia.com>  Mon, 22 Jan 2007 11:46:29 +0200
+
+ui-fonts (2.0-2) unstable; urgency=low
+
+  * Re-clasified ui-font-test for app installer
+
+ -- Jakub Pavelek <jakub.pavelek@nokia.com>  Fri, 10 Nov 2006 13:17:27 +0200
+
+ui-fonts (2.0-1) unstable; urgency=low
+
+  * Targetted for OSSO 1.0
+  * Made the glyphs for rocker key smaller (looks bad in the tester app)
+  * test UI changed a bit to look more neat
+
+ -- Jakub Pavelek <jakub.pavelek@nokia.com>  Tue,  7 Nov 2006 15:20:35 +0200
+
+ui-fonts (1.5-1) unstable; urgency=low
+
+  * Different testing UI
+
+ -- Jakub Pavelek <jakub.pavelek@nokia.com>  Sat,  4 Nov 2006 08:37:21 +0200
+
+ui-fonts (1.4-1) unstable; urgency=low
+
+  * Added device font testing utility (GUI)
+
+ -- Jakub Pavelek <jakub.pavelek@nokia.com>  Sat,  4 Nov 2006 08:35:04 +0200
+
+ui-fonts (1.3-4) unstable; urgency=low
+
+  * Rolling back the font split. No time to get this right for IT-2007.
+  * Fixes: NB#41386
+
+ -- Jakub Pavelek <jakub.pavelek@nokia.com>  Wed,  1 Nov 2006 10:47:47 +0200
+
+ui-fonts (1.3-3) unstable; urgency=low
+
+  * Update: the font was broken
+
+ -- Jakub Pavelek <jakub.pavelek@nokia.com>  Mon, 30 Oct 2006 17:06:29 +0200
+
+ui-fonts (1.3-2) unstable; urgency=low
+
+  * Repackaging. ui-fonts as virtual package, RX-34 and SU-18 as real font
+    packages. Fixes: NB#41386
+
+ -- Jakub Pavelek <jakub.pavelek@nokia.com>  Mon, 30 Oct 2006 14:47:23 +0200
+
+ui-fonts (1.3-1) unstable; urgency=low
+
+  * Different DeviceSymbol font for different HW.
+
+ -- Jakub Pavelek <jakub.pavelek@nokia.com>  Tue, 24 Oct 2006 14:06:54 +0300
+
+ui-fonts (1.3-0) unstable; urgency=low
+
+  * Now produces ui-fonts and ui-fonts-rx-34
+
+ -- Jakub Pavelek <jakub.pavelek@nokia.com>  Tue, 24 Oct 2006 11:21:19 +0300
+
+ui-fonts (1.2-2) unstable; urgency=low
+
+  * Revision bump-up
+
+ -- Jakub Pavelek <jakub.pavelek@nokia.com>  Fri, 28 Apr 2006 13:20:17 +0300
+
+ui-fonts (1.2-1) unstable; urgency=low
+
+  * Added nokiasmiley
+
+ -- Jakub Pavelek <jakub.pavelek@nokia.com>  Wed,  5 Apr 2006 11:06:24 +0300
+
+ui-fonts (1.1-3) unstable; urgency=low
+
+  * Put workaround by providing empty cache files, hopefully finally fixed the #15893 
+
+ -- Mohammad Anwari <mohammad.anwari@nokia.com>  Thu, 21 Jul 2005 17:37:01 +0300
+
+ui-fonts (1.1-2) unstable; urgency=low
+
+  * Fixed #15893 
+
+ -- Mohammad Anwari <mohammad.anwari@nokia.com>  Mon, 18 Jul 2005 16:53:47 +0300
+
+ui-fonts (1.1-1) unstable; urgency=low
+
+  * Adding new font : DeviceSymbols.ttf
+
+ -- Jakub Pavelek <jakub.pavelek@nokia.com>  Fri, 29 Apr 2005 12:52:25 +0300
+
+ui-fonts (1.0-1) unstable; urgency=low
+
+  * Initial release of UI fonts
+
+ -- Jakub Pavelek <jakub.pavelek@nokia.com>  Tue, 09 Nov 2004 12:55:21 +0200
+
